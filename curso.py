@@ -10,6 +10,7 @@ print('Eu um prazer te conhecer {:^20}!'.format(nome))
 print('Eu um prazer te conhecer {:>20}!'.format(nome))
 print('Eu um prazer te conhecer {:<20}!'.format(nome))
 print('Eu um prazer te conhecer {:=^20}!'.format(nome), end='')
+
 # End é para não quebrar a linha
 # Se utilizar \n cria uma nova linha
 
