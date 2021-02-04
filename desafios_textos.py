@@ -25,5 +25,21 @@ print('Milhar: {}'.format(n[0]))'''
 
 #Crie um programa que leia o nome de uma cidade diga se ela começa ou não com o nome “SANTO”.
 
-cid = str(input('Em que cidade você nasceu? ')).strip()
-print(cid[:5].upper() == 'SANTO')
+'''cid = str(input('Em que cidade você nasceu? ')).strip()
+print(cid[:5].upper() == 'SANTO')'''
+
+#==========================================================================================================================================================
+
+#Crie um programa que leia o nome de uma pessoa e diga se ela tem “SILVA” no nome.
+
+'''nome = str(input('Qual e seu nome completo')).strip()
+print('Seu nome tem Silva? {}'.format('SILVA' in nome.upper()))'''
+
+#==========================================================================================================================================================
+
+#Faça um programa que leia uma frase pelo teclado e mostre quantas vezes aparece a letra “A”, em que posição ela aparece a primeira vez e em que posição ela aparece a última vez.
+
+frase = str(input('Digite uma frase')).upper().strip()
+print('A letra A aparece {} vezes na frase'.format(frase.count('A')))
+print('A primeira letra A apareceu na posição {}'.format(frase.find('A')+1))
+print('A ultima letra A apareceu na posição {}'.format((frase.rfind('A')+1)))
